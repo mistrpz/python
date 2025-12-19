@@ -1,0 +1,14 @@
+import math
+def square_root(x):
+    """Returns the square root of a number."""
+    return math.sqrt(x)
+def logarithm(x, base):
+    """Returns the logarithm of a number with a specified base."""
+    return math.log(x, base)
+def sine(x):
+    """Returns the sine of an angle in radians."""
+    return math.sin(x)
+a=int(input('Enter a number: '))
+print(f'Square root of {a} is {square_root(a)}')
+print(f'Logarithm of {a} with base e is {logarithm(a, math.e)}')
+print(f'Sine of {a} radians is {sine(a)}')
